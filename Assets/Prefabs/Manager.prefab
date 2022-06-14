@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8255096525202802685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8255096525202802675}
+  - component: {fileID: 4433913515099734003}
+  - component: {fileID: 8255096525202802674}
+  - component: {fileID: 1130435596405514569}
+  - component: {fileID: -8265370617780911170}
+  - component: {fileID: 6046981054482931258}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8255096525202802675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255096525202802685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.105643, y: -0.041428324, z: -1642.6438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4433913515099734003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255096525202802685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a23fb261c0e84c42a875dfc39cff0d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionTime: 3
+  loadingScreen: {fileID: 0}
+--- !u!114 &8255096525202802674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255096525202802685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48392039b00b4f74a8fed4b8625fb5ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelOver: 0
+  coins: []
+  numCoins: 0
+  uzaiHealth: 0
+  winLevelUI: {fileID: 0}
+  loseLevelUI: {fileID: 0}
+  gameOverUI: {fileID: 0}
+  youWinUI: {fileID: 0}
+  fullHeart: {fileID: 4351282902560074641, guid: 6da6fc3925ccc6644839ee1121592e5b, type: 3}
+  emptyHeart: {fileID: 5472593924598782731, guid: 94edd51a6e3425a4a9ae8acaa8e4ab98, type: 3}
+  hearts: {fileID: 0}
+  heartList: []
+  lives: 0
+  numDeadNinjas: 0
+--- !u!114 &1130435596405514569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255096525202802685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d128c6e08a60cb418963e997ef908ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackNinja: {fileID: 0}
+  redNinja: {fileID: 0}
+  greenNinja: {fileID: 0}
+  currentNinja: {fileID: 0}
+  uzai: {fileID: 0}
+  levelOver: 0
+--- !u!114 &-8265370617780911170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255096525202802685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299207ff909b8b34a9bdb1f4a376f8f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RESPAWN_TIME: 20
+  spawnPoint: {fileID: 0}
+  destroyEffect: {fileID: 2225888700847596699, guid: e33f0829ffdbd3642913527de4d4e61b, type: 3}
+  respawnEffect: {fileID: 7154774770853194757, guid: e704e8198043129439cb93b7d8721fa0, type: 3}
+  manager: {fileID: 0}
+--- !u!114 &6046981054482931258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255096525202802685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8621592a1f35b87418c6fb02082da977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  silver: {fileID: 8092527289041941871, guid: 280be4d4499c22843a672bd6aa2e37a5, type: 3}
+  gold: {fileID: 1167680012315060984, guid: cbf72c2c67c12214ebd083706815699f, type: 3}
+  sushi: {fileID: 3423667089003705698, guid: ebb59408176cfb041bbb1072615e26df, type: 3}
+  nodes: {fileID: 0}
+  nodeList: []

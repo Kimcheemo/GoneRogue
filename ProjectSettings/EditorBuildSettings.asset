@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start Menu.unity
+    guid: cbca0ab1776c8bd4dbb6f6ccbc645871
+  - enabled: 1
+    path: Assets/Scenes/Opening/opening1.unity
+    guid: 0907feb06e09ab14dac2f34838643365
+  - enabled: 1
+    path: Assets/Scenes/Opening/opening1_1.unity
+    guid: 45dcb9704e5fdb246a9cf03f7a9d4a39
+  - enabled: 1
+    path: Assets/Scenes/Opening/opening2.unity
+    guid: 4c908334c25f6284b916d7e67ead49ae
+  - enabled: 1
+    path: Assets/Scenes/Opening/opening3.unity
+    guid: 1b53adcd07be2c340b8fd465a9dadb3f
+  - enabled: 1
+    path: Assets/Scenes/Opening/opening4.unity
+    guid: 4ae7a520ce7794b4d93eaf1fc2dbfa48
+  - enabled: 1
+    path: Assets/Scenes/Opening/opening5.unity
+    guid: 4735f9ad4fc0b7c419279b8b66b96bdc
+  - enabled: 1
+    path: Assets/Scenes/Opening/opening6.unity
+    guid: 74a03f4d20e081448b4d770f87d0ff50
+  - enabled: 1
+    path: Assets/Scenes/Opening/opening7.unity
+    guid: 54a40e973808eb54aa5c62db5a5dff02
+  - enabled: 1
+    path: Assets/Scenes/Opening/opening8.unity
+    guid: 73779d1ee1f16d44abfe639874f87f19
+  - enabled: 1
+    path: Assets/Scenes/Opening/opening9.unity
+    guid: 97668fa886008904daa3bbb179bd96aa
+  - enabled: 1
+    path: Assets/Scenes/Opening/Insructions.unity
+    guid: 12e25ff2433fef040a0b1b89f274d6b3
+  - enabled: 1
+    path: Assets/Scenes/Final Levels/Level_1_V2.unity
+    guid: d6b3295fc6d76694fb84c2c56d3b8406
+  - enabled: 1
+    path: Assets/Scenes/Final Levels/Level_4.unity
+    guid: 27cd5cf7743ff5841bd37d1c8679a5a7
+  - enabled: 1
+    path: Assets/Scenes/Final Levels/Level_3_V2.unity
+    guid: bcb1d9047c2706f4bb68bdf6dcbbb19e
+  - enabled: 1
+    path: Assets/Scenes/Final Levels/Level_2_V2.unity
+    guid: fe0467a1110d0fb45bad9212dc272afc
+  - enabled: 1
+    path: Assets/Scenes/Ending/Ending1.unity
+    guid: bf284a99111681643bb1b9c6e89479a2
+  - enabled: 1
+    path: Assets/Scenes/Ending/Ending2.unity
+    guid: 9e7792a37fd5d2e44952a4b8b0059482
+  - enabled: 1
+    path: Assets/Scenes/Ending/Ending3.unity
+    guid: a92ad8d899deb0a4882df4a4aab5691b
+  - enabled: 1
+    path: Assets/Scenes/Ending/Ending4.unity
+    guid: 9f9ece3d536c02545a6954145a37c8cd
+  - enabled: 1
+    path: Assets/Scenes/Ending/Ending5.unity
+    guid: 295b3a82ce4a283448b88e375d6ec257
+  m_configObjects: {}

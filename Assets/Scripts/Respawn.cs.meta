@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 299207ff909b8b34a9bdb1f4a376f8f6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spawnPoint: {instanceID: 0}
+  - destroyEffect: {fileID: 2225888700847596699, guid: e33f0829ffdbd3642913527de4d4e61b, type: 3}
+  - respawnEffect: {fileID: 7154774770853194757, guid: e704e8198043129439cb93b7d8721fa0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

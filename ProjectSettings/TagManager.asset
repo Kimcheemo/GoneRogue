@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Down
+  - Up
+  - Coin
+  - Uzai
+  - Grass
+  - Shuriken
+  - Weapon
+  - Music
+  - LoadScreen
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ninjas
+  - Shuriken
+  - SilverCoins
+  - Shrimp
+  - Uzai
+  - Environment
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4161963273
+    locked: 0
+  - name: Items
+    uniqueID: 3954335693
+    locked: 0
+  - name: Spikes
+    uniqueID: 2759513231
+    locked: 0
+  - name: Smoke
+    uniqueID: 634360233
+    locked: 0
+  - name: Character
+    uniqueID: 1514226231
+    locked: 0
+  - name: Shield
+    uniqueID: 631908155
+    locked: 0
+  - name: Props
+    uniqueID: 2310870297
+    locked: 0

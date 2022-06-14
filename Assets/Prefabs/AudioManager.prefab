@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6454187240553639708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6454187240553639710}
+  - component: {fileID: 6454187240553639711}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6454187240553639710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6454187240553639708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.51912916, y: -0.022528216, z: -1242.0676}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6454187240553639711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6454187240553639708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e454d4ecfb58e0b4a9377364781bf413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Damage Uzai
+    clip: {fileID: 8300000, guid: be603d8fc70c8dd4ca4e8744e97d58e1, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Sushi
+    clip: {fileID: 8300000, guid: d73f01ff0fc33ce4e9f3b74ea458ead0, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Throw Shuriken
+    clip: {fileID: 8300000, guid: a7e92553521ff624e875d6ad81e536d8, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ability Disabled
+    clip: {fileID: 8300000, guid: ebbff3d745e566f4396d52e1857c0e02, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Sword Slash
+    clip: {fileID: 8300000, guid: b33199bbf24371640a5dabf397b2ab1b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Spikes
+    clip: {fileID: 8300000, guid: 959e41a9cc18ca243b28d37902a79b91, type: 3}
+    volume: 0.5
+    pitch: 0.6
+    loop: 0
+    source: {fileID: 0}
+  - name: Coin Collection
+    clip: {fileID: 8300000, guid: ac2b7a6e74d1fad4e99ac53a8b05279d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu Song
+    clip: {fileID: 8300000, guid: d36af1884ceabc140ab3a1529c20c350, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Heart Pop
+    clip: {fileID: 8300000, guid: 0aab5eef788a91e41b9a442b781dcbd0, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Win Level
+    clip: {fileID: 8300000, guid: 8739f6973677b57468bae3cdbb47a256, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lose Level
+    clip: {fileID: 8300000, guid: 8fb46d354c3972441a5e3c20825537de, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Game Over
+    clip: {fileID: 8300000, guid: 486cf94cf94c0894597f4b6fc6591bb2, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PacMan Start
+    clip: {fileID: 8300000, guid: ea1f7bbaf0108ad4ca21809aa2b17158, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ninja Death
+    clip: {fileID: 8300000, guid: bd72661e1a4e46c45950e1f254826323, type: 3}
+    volume: 0.5
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: bd94c739b5ce20149970cce6cb6fe18f, type: 3}
+    volume: 0.285
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
